@@ -2,5 +2,12 @@
 
 import sys, itertools, collections
 
+arr = []
 for line in sys.stdin:
-    line = line.strip()
+    arr.append(line.strip())
+
+for line in arr:
+    print(line)
+
+for line in arr:
+    print(line)
