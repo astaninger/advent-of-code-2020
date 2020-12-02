@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cat day${1}.in | python3 day${1}.py
+printf -v dayNum "%02d" $1
+cat day${dayNum}/day${dayNum}.in | python3 day${dayNum}/day${dayNum}.py
