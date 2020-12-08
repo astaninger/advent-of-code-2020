@@ -5,4 +5,6 @@ Disclaimers:
 2. although not good practice, input files are included in case advent of code site disappears 100 years from now 
 
 ### Usage
-`sh run.sh {day#}`
+```bash
+sh run.sh {day#}
+```
